@@ -6,7 +6,7 @@ The synchronous callback version can be used to avoid blocking the thread with l
 
 ```ts
 const crypto = require('crypto')
-const { s } = require('./prsms')
+const { s } = require('prsms')
 
 const items = new Array(1000).fill(undefined)
 
@@ -21,7 +21,7 @@ It's the non-blocking equivalent to:
 
 ```ts
 const crypto = require('crypto')
-const { s } = require('./prsms')
+const { s } = require('prsms')
 
 const items = new Array(1000).fill(undefined)
 
