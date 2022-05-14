@@ -1,0 +1,10 @@
+{
+  "name": "prsms",
+  "author": "tpscrpt",
+  "version": "0.1.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}
